@@ -117,12 +117,12 @@ function App() {
   return (
     <div className="App">
       <div>
-        {/* <CSVLink data={allLocations}>
+        <CSVLink data={allLocations}>
           {" "}
           Download de: {allLocations.length}
         </CSVLink>
-        <hr /> */}
-        <ul>
+        <hr />
+        {/* <ul>
           {allCountries.map((location, index) => (
             <li key={index}>
               {
@@ -137,7 +137,7 @@ function App() {
               {");"}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
